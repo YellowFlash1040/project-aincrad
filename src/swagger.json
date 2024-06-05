@@ -1,0 +1,31 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "version": "1.0.0",
+    "title": "API docs",
+    "description": "<p>API documentation for <a href='https://github.com/YellowFlash1040' target='_blank'>API</a> project.</p> <p><a href='https://github.com/YellowFlash1040' target='_blank'>API Repository</a> </p><p><a href='https://github.com/YellowFlash1040' target='_blank'>Frontend Repository</a> </p>",
+    "license": {
+      "name": "MIT",
+      "url": "https://opensource.org/license/MIT"
+    }
+  },
+  "servers": [{ "url": "https://.onrender.com/api/v1" }, { "url": "http://localhost:3000/api/v1" }],
+  "tags": [
+    {
+      "name": "Users",
+      "description": "Users endpoints"
+    }
+  ],
+  "paths": {
+    "/users": {
+      "get": {
+        "tags": ["Users"],
+        "responses": {
+          "200": {
+            "description": "Successful operation"
+          }
+        }
+      }
+    }
+  }
+}
