@@ -21,7 +21,7 @@ export const handleError = (
     return res.status(status).json({ message });
   }
 
-  if (process.env.NODE_ENV === 'dev') {
+  if (process.env.NODE_ENVIRONMENT === 'dev') {
     return res.status(500).json({ message: error.message });
   } else {
     return res.status(500).json({ message: 'Unknown server error' });

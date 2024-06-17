@@ -29,3 +29,5 @@ dist-ssr
 
 ## Garbage
 z_rawg_swagger.json
+DELETE.ts
+getTopNewReleases.ts

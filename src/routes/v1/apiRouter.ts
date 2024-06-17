@@ -1,9 +1,9 @@
 import { Router } from 'express';
 
-import usersRouter from './usersRouter/usersRouter.js';
+import gamesRouter from './gamesRouter/gamesRouter.js';
 
 const apiRouter = Router();
 
-apiRouter.use('/users', usersRouter);
+apiRouter.use('/games', gamesRouter);
 
 export default apiRouter;
